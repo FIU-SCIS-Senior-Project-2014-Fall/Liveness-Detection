@@ -14,6 +14,14 @@
 		73464A7119D0836600EF3A36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73464A7019D0836600EF3A36 /* Images.xcassets */; };
 		73464A7419D0836600EF3A36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73464A7219D0836600EF3A36 /* LaunchScreen.xib */; };
 		73464A8019D0836600EF3A36 /* Liveness_DetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73464A7F19D0836600EF3A36 /* Liveness_DetectionTests.m */; };
+		73464A8A19D085C100EF3A36 /* libKairosSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73464A8919D085C100EF3A36 /* libKairosSDK.a */; };
+		73464A8D19D0860C00EF3A36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73464A8C19D0860C00EF3A36 /* UIKit.framework */; };
+		73464A8F19D0862100EF3A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73464A8E19D0862100EF3A36 /* Foundation.framework */; };
+		73464A9119D0863100EF3A36 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73464A9019D0863100EF3A36 /* CoreImage.framework */; };
+		73464A9319D0863F00EF3A36 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73464A9219D0863F00EF3A36 /* CoreMedia.framework */; };
+		73464A9519D0864E00EF3A36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73464A9419D0864E00EF3A36 /* CoreGraphics.framework */; };
+		73464A9719D0866600EF3A36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73464A9619D0866600EF3A36 /* AVFoundation.framework */; };
+		73464A9919D0867700EF3A36 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73464A9819D0867700EF3A36 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,15 @@
 		73464A7919D0836600EF3A36 /* Liveness-DetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Liveness-DetectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73464A7E19D0836600EF3A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73464A7F19D0836600EF3A36 /* Liveness_DetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Liveness_DetectionTests.m; sourceTree = "<group>"; };
+		73464A8919D085C100EF3A36 /* libKairosSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKairosSDK.a; sourceTree = "<group>"; };
+		73464A8B19D085DF00EF3A36 /* KairosSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KairosSDK.h; sourceTree = "<group>"; };
+		73464A8C19D0860C00EF3A36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73464A8E19D0862100EF3A36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73464A9019D0863100EF3A36 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		73464A9219D0863F00EF3A36 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		73464A9419D0864E00EF3A36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73464A9619D0866600EF3A36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		73464A9819D0867700EF3A36 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73464A9919D0867700EF3A36 /* AudioToolbox.framework in Frameworks */,
+				73464A9719D0866600EF3A36 /* AVFoundation.framework in Frameworks */,
+				73464A9519D0864E00EF3A36 /* CoreGraphics.framework in Frameworks */,
+				73464A9319D0863F00EF3A36 /* CoreMedia.framework in Frameworks */,
+				73464A9119D0863100EF3A36 /* CoreImage.framework in Frameworks */,
+				73464A8F19D0862100EF3A36 /* Foundation.framework in Frameworks */,
+				73464A8D19D0860C00EF3A36 /* UIKit.framework in Frameworks */,
+				73464A8A19D085C100EF3A36 /* libKairosSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,15 @@
 		73464A5719D0836600EF3A36 = {
 			isa = PBXGroup;
 			children = (
+				73464A9819D0867700EF3A36 /* AudioToolbox.framework */,
+				73464A9619D0866600EF3A36 /* AVFoundation.framework */,
+				73464A9419D0864E00EF3A36 /* CoreGraphics.framework */,
+				73464A9219D0863F00EF3A36 /* CoreMedia.framework */,
+				73464A9019D0863100EF3A36 /* CoreImage.framework */,
+				73464A8E19D0862100EF3A36 /* Foundation.framework */,
+				73464A8C19D0860C00EF3A36 /* UIKit.framework */,
+				73464A8B19D085DF00EF3A36 /* KairosSDK.h */,
+				73464A8919D085C100EF3A36 /* libKairosSDK.a */,
 				73464A6219D0836600EF3A36 /* Liveness-Detection */,
 				73464A7C19D0836600EF3A36 /* Liveness-DetectionTests */,
 				73464A6119D0836600EF3A36 /* Products */,
@@ -349,8 +383,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Liveness-Detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -361,8 +400,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Liveness-Detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -419,6 +463,7 @@
 				73464A8519D0836600EF3A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73464A8619D0836600EF3A36 /* Build configuration list for PBXNativeTarget "Liveness-DetectionTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +472,7 @@
 				73464A8819D0836600EF3A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
