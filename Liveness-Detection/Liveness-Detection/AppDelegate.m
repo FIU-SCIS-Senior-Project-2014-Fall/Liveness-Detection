@@ -16,7 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // Set the credentials to use the Kairos SDK
+    [KairosSDK initWithAppId:@"e027ff4a" appKey:@"1e5f99882cda3f949aa10c5a3fda8f00"];
+    
     return YES;
 }
 

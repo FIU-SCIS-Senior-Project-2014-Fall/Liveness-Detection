@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LDMainMenuViewController.h
 //  Liveness-Detection
 //
 //  Created by Christopher Choitz on 9/22/14.
@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "KairosSDK.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface LDMainMenuViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+- (IBAction)enrollImage:(id)sender;
+- (IBAction)recognizeImage:(id)sender;
+- (IBAction)detect:(id)sender;
 
 
 @end
-
