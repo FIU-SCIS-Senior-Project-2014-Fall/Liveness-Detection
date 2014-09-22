@@ -34,10 +34,33 @@
 }
 */
 
+
 - (IBAction)enrollImage:(id)sender {
+    // Enroll an image if successful log will show the response
+    // if it's unsuccessful log will also show why unsuccessful.
+    
+    // The image will be stored in gallery1 and this gallery will be used
+    // later on to compare other images to.
+    [KairosSDK imageCaptureEnrollWithSubjectId:@"15"
+                                   galleryName:@"gallery1"
+                                       success:^(NSDictionary *response, UIImage *image) {
+                                           NSLog(@"%@", response);
+                                       } failure:^(NSDictionary *response, UIImage *image) {
+                                           NSLog(@"%@", response);
+                                       }];
+    
 }
 
 - (IBAction)recognizeImage:(id)sender {
+    // Recognize an image from gallery that was used in the enroll method
+    
+    [KairosSDK imageCaptureRecognizeWithThreshold:@".75"
+                                      galleryName:@"gallery1"
+                                          success:^(NSDictionary *response, UIImage *image) {
+                                              NSLog(@"%@", response);
+                                          } failure:^(NSDictionary *response, UIImage *image) {
+                                              NSLog(@"%@", response);
+                                          }];
 }
 
 - (IBAction)detect:(id)sender {
